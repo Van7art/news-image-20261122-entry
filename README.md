@@ -47,7 +47,8 @@ story (Pant's 128, India's record total) is from play on Sunday
 ## How it works
 
 `main.py` (Python 3.13, standard library only) writes the image to
-`/output/entry.png`. It needs no network and is deterministic: every
+`/output/entry.png`. It copies the front-page image held in the
+repository, so it needs no network and is deterministic: every
 run writes the same bytes.
 
 Run it:
